@@ -1,0 +1,303 @@
+.top-containerAdvanced .top-items .nav-item, .top-container .top-items .nav-item {
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+  font-size: 13px;
+  padding-left: 15px;
+}
+.top-containerAdvanced .top-items .nav-item a, .top-container .top-items .nav-item a {
+  color: rgb(253, 253, 253);
+  outline: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.top-containerAdvanced .top-items .nav-item a:hover, .top-container .top-items .nav-item a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer, footer .l, footer .r {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .l a, footer .r a {
+  color: rgb(253, 253, 253);
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  outline: none;
+  text-decoration: none;
+}
+footer .l a:hover, footer .r a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.top-containerAdvanced, .top-container {
+  position: relative;
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.top-containerAdvanced .iconGoo, .top-container .iconGoo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 12px;
+  height: 48px;
+  align-items: center;
+}
+.top-containerAdvanced .top-items, .top-container .top-items {
+  display: flex;
+  padding-left: 32px;
+  padding-right: 8px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: arial, sans-serif;
+  background-color: rgb(40, 11, 78);
+  color: rgb(253, 253, 253);
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.space {
+  flex-grow: 1;
+}
+
+.top-container {
+  padding: 6px;
+}
+
+.top-containerAdvanced {
+  padding: 8px;
+}
+
+.hederbox {
+  margin: 25px 35px;
+}
+.hederbox .heder {
+  color: #1cdcee;
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.line {
+  border-bottom: 1px solid #403c43;
+}
+
+.imagoogle {
+  min-height: 92px;
+  margin-top: 63.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagoogle .cajaIimages {
+  max-height: 92px;
+  position: relative;
+  height: 100%;
+  margin-top: auto;
+}
+.imagoogle .cajaIimages .icon-imagas-word {
+  color: #f8e51b;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
+}
+
+.iusearch {
+  padding: 20px;
+}
+
+form {
+  margin: 0 auto;
+  width: auto;
+  max-width: 584px;
+  padding-top: 6px;
+  position: relative;
+}
+form .topsearch {
+  min-height: 44px;
+  border: 1px solid rgba(253, 253, 253, 0.386);
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+form .topsearch .input-top {
+  display: flex;
+  padding: 5px 8px 0 14px;
+}
+form .topsearch .input-top .lup {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+  height: 46px;
+}
+form .topsearch .input-top .lup span {
+  width: 20px;
+}
+form .topsearch .input-top .lup span svg {
+  fill: rgba(253, 253, 253, 0.573);
+}
+form .topsearch .input-top input[name=q] {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
+  margin-bottom: 8px;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  color: rgb(253, 253, 253);
+  resize: none;
+  background-color: transparent;
+  flex: 100%;
+  font-size: 16px;
+}
+form .topsearch:hover {
+  background-color: rgb(58, 18, 110);
+  box-shadow: 0 1px 6px 0 #171717;
+  border-color: rgba(223, 225, 229, 0);
+}
+form .buttons-bottom {
+  text-align: center;
+  height: 70px;
+  padding-top: 18px;
+}
+form .buttons-bottom input {
+  background-color: rgb(58, 18, 110);
+  border: 1px solid rgb(55, 16, 107);
+  border-radius: 4px;
+  color: rgb(253, 253, 253);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+form .buttons-bottom input:hover {
+  border: 1px solid rgba(253, 253, 253, 0.386);
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+}
+
+footer {
+  background: rgb(36, 7, 73);
+  padding: 0 20px;
+  border-top: 1px solid #403c43;
+}
+input[name=q]:focus {
+  outline: none;
+}
+
+.conteiner-form {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+.conteiner-form form {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+.texto {
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: auto;
+  color: #ede0e0;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+  padding-bottom: 12px;
+}
+
+.barra {
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.input-form {
+  width: 100%;
+  text-align: left;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+.input-form:focus {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+.hederform {
+  width: 16%;
+}
+
+.bottomSear {
+  display: flex;
+  justify-content: flex-end;
+  width: calc(50% + 204px);
+}
+.bottomSear input {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+  background-color: #4d90fe;
+  background: linear-gradient(0deg, rgb(27, 107, 237) 0%, rgb(77, 144, 254) 35%, rgb(27, 107, 237) 100%);
+  border: 1px solid #3079ed;
+  color: #fff;
+  margin: 10px 0;
+  padding: 0 12px;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+.bottomSear input:hover {
+  background: linear-gradient(0deg, rgb(24, 83, 181) 0%, rgb(71, 141, 255) 35%, rgb(46, 109, 212) 61%, rgb(25, 85, 182) 100%);
+}/*# sourceMappingURL=style.css.map */
